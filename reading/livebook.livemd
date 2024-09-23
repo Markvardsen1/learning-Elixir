@@ -109,6 +109,10 @@ Here you can see an Elixir cell that adds two integers.
 2 + 2
 ```
 
+```elixir
+"Hello" <> " world !"
+```
+
 You can create an Elixir cell anywhere throughout this course if you want to experiment with some Elixir code. Just be careful not to break existing code examples or affect further examples be rebinding already bound variables.
 
 To create an Elixir cell, hover your cursor between two cells and press the `+Code` button.
@@ -222,7 +226,7 @@ Try uncommenting the following code (Remove the `#` character) then press <kbd>C
 Notice that the `1 + 1` code moves to the left.
 
 ```elixir
-# 1 + 1
+1 + 1
 ```
 
 If you have not evaluated any Elixir code cells, you may see a warning.
@@ -235,7 +239,7 @@ If you cannot format an Elixir cell, you can use this as a clue that you have a 
 code is invalid. Notice that you cannot use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> to format the code.
 
 ```elixir
-          1 +
+1 + 1
 ```
 
 ## Commit Your Progress
